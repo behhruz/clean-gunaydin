@@ -1,13 +1,20 @@
 {
-    "header": {
-      "service": "Bizning xizmatlar",
-      "about": "Biz xaqimizda",
-      "command": "Bizning jamoa",
-      "contact": "Bizga bog'laning"
-    },
-    "main": {
-        "zagalovok": "Xonangizni toza porloq qiling",
-        "podzagalovok": "Uyingiz va kompaniyangiz uchun professional tozalash",
-        "first-button": "Biz bilan bog'laning"
-      }
+  "header": {
+    "service": "Bizning xizmatlar",
+    "about": "Biz xaqimizda",
+    "command": "Bizning jamoa",
+    "contact": "Bizga bog'laning"
+  },
+  "main": {
+    "zagalovok": "Xonangizni toza porloq qiling",
+    "podzagalovok": "Uyingiz va kompaniyangiz uchun professional tozalash",
+    "first-button": "Biz bilan bog'laning",
+    "usluga-text-zagalovok": "Biz professional tozalash xizmatlarini taqdim etamiz",
+    "usluga-text": "Bizning ustuvorligimiz - mijozlarimizning sifati va qoniqishidir. Biz mukammal natijalarga erishish uchun professional asboblar va zamonaviy jihozlardan foydalanamiz. Bizning moslashuvchan narxlar tizimi sizning ehtiyojlaringiz va byudjetingizga mos keladigan eng yaxshi xizmatlarni tanlash imkonini beradi.",
+    "card1": "Panoramik oynalarni yuvish",
+    "card2": "Fasadni yuvish",
+    "card2-text": "Har qanday binolar, xususiy uylar, savdo va ofis markazlari sanoat korxonalari uchun jabhalar va derazalarni yuvish talab qilinishi mumkin.",
+    "card3": "Yumshoq mebellarni quruq tozalash",
+    "card4": "Kompaniya"
   }
+}

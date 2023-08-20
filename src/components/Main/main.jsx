@@ -4,6 +4,12 @@ import leftImg from "../../assets/logo/left.png";
 import rightImg from "../../assets/logo/right.png";
 import { useTranslation } from "react-i18next";
 import xolaImg from "../../assets/img/image 4.png";
+import sharLogo from "../../assets/logo/shar.png";
+import photo1 from "../../assets/img/photo1.png";
+import photo2 from "../../assets/img/photo2.png";
+import photo3 from "../../assets/img/photo3.png";
+import photo4 from "../../assets/img/photo4.png";
+import likeKok from "../../assets/logo/Vector (20).png";
 
 export const Main = () => {
   const [t, i18n] = useTranslation("global");
@@ -23,6 +29,58 @@ export const Main = () => {
           </div>
         </div>
         <img src={rightImg} alt="" />
+      </section>
+      <section className="second_section">
+        <button>{t("header.service")}</button>
+        <p className="second_section-first_text">
+          {t("main.usluga-text-zagalovok")}
+        </p>
+        <div className="wrapper-cards">
+          <img className="sharLogo" src={sharLogo} alt="" />
+          <div className="box_cards">
+            <p className="service2">SERVICE</p>
+            <div className="real_box_card">
+              <div className="wrapper-real-cards">
+                {" "}
+                <p className="second_section-second_text">
+                  {t("main.usluga-text")}
+                </p>
+                {/* card */}
+                <div className="boxes_cards">
+                  <div className="cards-first">
+                    <img src={photo1} alt="" />
+                    <div className="text-logo_box">
+                      <p>{t("main.card1")}</p>
+                      <img src={likeKok} alt="" />
+                    </div>
+                  </div>
+                  <div className="cards-first">
+                    <img src={photo1} alt="" />
+                    <div className="text-logo_box">
+                      <p>{t("main.card1")}</p>
+                      <img src={likeKok} alt="" />
+                    </div>
+                  </div>
+                  <div className="cards-first">
+                    <img src={photo1} alt="" />
+                    <div className="text-logo_box">
+                      <p>{t("main.card1")}</p>
+                      <img src={likeKok} alt="" />
+                    </div>
+                  </div>
+                  <div className="cards-first">
+                    <img src={photo1} alt="" />
+                    <div className="text-logo_box">
+                      <p>{t("main.card1")}</p>
+                      <img src={likeKok} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img className="sharLogo1" src={sharLogo} alt="" />
+        </div>
       </section>
     </div>
   );
