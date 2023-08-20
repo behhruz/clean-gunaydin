@@ -66,6 +66,9 @@ nav > p {
 @media (max-width: 500px) {
   .dropdown {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
   }
   .logo_container > img {
