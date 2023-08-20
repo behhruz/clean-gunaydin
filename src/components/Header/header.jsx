@@ -7,6 +7,7 @@ import logoRus from "../../assets/logo/RUS.png";
 import type { MenuProps } from "antd";
 import { Button, Dropdown } from "antd";
 import burgerImg from "../../assets/logo/burger.png";
+import arrowIcon from "../../assets/logo/image-removebg-preview (52).png";
 
 export const Header = () => {
   const [t, i18n] = useTranslation("global");
@@ -52,32 +53,46 @@ export const Header = () => {
     },
   ];
   return (
-    <div className="header">
-      <div className="logo_container">
-        <img src={logoGunaydin} alt="" />
-      </div>
-      <nav>
-        <p>{t("header.service")}</p>
-        <p>{t("header.about")}</p>
-        <p>{t("header.command")}</p>
-        <p>{t("header.contact")}</p>
-      </nav>
-
-      <button className="phone_button">+998333000057</button>
-      <div className="tranlate_icons_box">
-        <img onClick={() => handleChangeLaunguage("uz")} src={logoUzb} alt="" />
-        <img onClick={() => handleChangeLaunguage("ru")} src={logoRus} alt="" />
-      </div>
-      <Dropdown
-        className="dropdown"
-        menu={{ items }}
-        placement="bottomRight"
-        arrow={{ pointAtCenter: true }}
-      >
-        <div className="burgerBox">
-          <img src={burgerImg} alt="" />
+    <div className="container_header">
+      <div className="header">
+        <div className="logo_container">
+          <img src={logoGunaydin} alt="" />
         </div>
-      </Dropdown>
+        <nav>
+          <p>{t("header.service")}</p>
+          <p>{t("header.about")}</p>
+          <p>{t("header.command")}</p>
+          <p>{t("header.contact")}</p>
+        </nav>
+
+        <button className="phone_button">+998333000057</button>
+        <div className="tranlate_icons_box">
+          <img
+            onClick={() => handleChangeLaunguage("uz")}
+            src={logoUzb}
+            alt=""
+          />
+          <img
+            onClick={() => handleChangeLaunguage("ru")}
+            src={logoRus}
+            alt=""
+          />
+        </div>
+        <Dropdown
+          className="dropdown"
+          menu={{ items }}
+          placement="bottomRight"
+          arrow={{ pointAtCenter: true }}
+        >
+          <div className="burgerBox">
+            <img src={burgerImg} alt="" />
+          </div>
+        </Dropdown>
+      </div>
+      <div className="logo_contact_wrapper">
+        <img src={arrowIcon} alt="" />
+        <button className="phone2_button">333000057</button>
+      </div>
     </div>
   );
 };

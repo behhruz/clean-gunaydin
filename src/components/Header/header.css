@@ -1,11 +1,19 @@
 .header {
-  width: 57.81%;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.container_header {
+  width: 57.81%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -18,6 +26,18 @@ nav {
   height: auto;
 }
 nav > p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 0.85vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2;
+  white-space: nowrap;
+  display: inline;
+}
+
+.contact_wrapper > p {
   color: #000;
   font-family: Montserrat;
   font-size: 0.85vw;
@@ -45,6 +65,18 @@ nav > p {
 .dropdown {
   display: none;
 }
+.phone2_button {
+  width: 110px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #43aaff;
+  color: white;
+  border: none;
+  -webkit-box-shadow: -2px 5px 28px -3px rgba(67, 170, 255, 1);
+  -moz-box-shadow: -2px 5px 28px -3px rgba(67, 170, 255, 1);
+  box-shadow: -2px 5px 28px -3px rgba(67, 170, 255, 1);
+}
 .phone_button {
   width: 110px;
   height: 27px;
@@ -62,14 +94,22 @@ nav > p {
   height: 20px;
   width: 25px;
 }
+.logo_contact_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin: -30px 100px 0 0;
+}
 
 @media (max-width: 500px) {
+  .logo_contact_wrapper {
+    display: none;
+  }
   .dropdown {
     display: block;
     display: flex;
     align-items: center;
     justify-content: center;
-  
   }
   .logo_container > img {
     width: 92px;
@@ -82,8 +122,10 @@ nav > p {
     display: none;
     margin: 0;
   }
-  .header {
+  .container_header {
     width: 100%;
+  }
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -92,7 +134,7 @@ nav > p {
     width: 20px;
     height: 15px;
   }
-  .tranlate_icons_box{
+  .tranlate_icons_box {
     gap: 5px;
   }
 }
