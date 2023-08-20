@@ -4,5 +4,10 @@
       "about": "Biz xaqimizda",
       "command": "Bizning jamoa",
       "contact": "Bizga bog'laning"
-    }
+    },
+    "main": {
+        "zagalovok": "Xonangizni toza porloq qiling",
+        "podzagalovok": "Uyingiz va kompaniyangiz uchun professional tozalash",
+        "first-button": "Biz bilan bog'laning"
+      }
   }
