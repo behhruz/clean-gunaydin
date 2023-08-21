@@ -6,7 +6,7 @@ import Posts from "./components/posts";
 function App() {
   return (
     <div className="wrapper">
-      <Header />
+      <Header/>
       <Main />
       <Posts />
     </div>

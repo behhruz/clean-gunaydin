@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.507);
 }
 .container_header {
   width: 57.81%;
@@ -13,6 +14,10 @@
   align-items: end;
   flex-direction: column;
   margin-bottom: 30px;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 nav {
   display: flex;
@@ -124,6 +129,7 @@ nav > p {
   }
   .container_header {
     width: 100%;
+    height: 70px;
   }
   .header {
     display: flex;
@@ -137,4 +143,5 @@ nav > p {
   .tranlate_icons_box {
     gap: 5px;
   }
+
 }
