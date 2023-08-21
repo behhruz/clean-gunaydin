@@ -330,6 +330,9 @@
     font-size: 4px;
     width: 60%;
   }
+  .second_section-second_text{
+    margin-bottom: 10px;
+  }
   .text-logo_box > img {
     width: 7px;
     height: 7px;
