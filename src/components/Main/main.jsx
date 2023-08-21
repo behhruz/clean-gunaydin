@@ -31,7 +31,9 @@ export const Main = () => {
         <img src={rightImg} alt="" />
       </section>
       <section className="second_section">
-        <button>{t("header.service")}</button>
+        <button type="">
+          <a href="tel:+998333000057">{t("header.service")}</a>{" "}
+        </button>
         <p className="second_section-first_text">
           {t("main.usluga-text-zagalovok")}
         </p>

@@ -286,7 +286,7 @@
   .second_section > button {
     width: 191px;
     height: 53.65px;
-    font-size: 24px;
+    font-size: 20px;
     white-space: nowrap; /* Запрет переноса текста на новую строку */
     display: inline;
   }
