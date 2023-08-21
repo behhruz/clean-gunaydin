@@ -21,6 +21,7 @@ import card7 from "../../assets/Card/Rectangle 29.png";
 import card8 from "../../assets/Card/Rectangle 30.png";
 import card9 from "../../assets/Card/Rectangle 31.png";
 import card10 from "../../assets/Card/Rectangle 32.png";
+import xolaRasmi from "../../assets/img/Rectangle 33.png";
 
 export const Main = () => {
   const [t, i18n] = useTranslation("global");
@@ -145,7 +146,40 @@ export const Main = () => {
                 <img className="rasm1" src={card5} alt="" />
                 <img className="rasm1" src={card5} alt="" />
                 <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />  
+                <img className="rasm1" src={card5} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="fifth_section">
+          <button className="GreenButton1">{t("header.command")}</button>
+          <div className="wrapper-fifth-cards">
+            <div className="card-five">
+              <img src={xolaRasmi} alt="" />
+              <div className="card-five-texts">
+                <p className="top-text">{t("main.fifth_card")}</p>
+                <p className="bottom-text">{t("main.fifth_card1")}</p>
+              </div>
+            </div>
+            <div className="card-five">
+              <img src={xolaRasmi} alt="" />
+              <div className="card-five-texts">
+                <p className="top-text">{t("main.fifth_card")}</p>
+                <p className="bottom-text">{t("main.fifth_card1")}</p>
+              </div>
+            </div>{" "}
+            <div className="card-five">
+              <img src={xolaRasmi} alt="" />
+              <div className="card-five-texts">
+                <p className="top-text">{t("main.fifth_card")}</p>
+                <p className="bottom-text">{t("main.fifth_card1")}</p>
+              </div>
+            </div>{" "}
+            <div className="card-five">
+              <img src={xolaRasmi} alt="" />
+              <div className="card-five-texts">
+                <p className="top-text">{t("main.fifth_card")}</p>
+                <p className="bottom-text">{t("main.fifth_card1")}</p>
               </div>
             </div>
           </div>

@@ -404,11 +404,121 @@
   font-weight: 500;
   line-height: normal;
 }
+.GreenButton1 {
+  width: 30%;
+  height: 84px;
+  border-radius: 42px;
+  background: #65e700;
+  color: #fff;
+  font-family: Inter;
+  font-size: 2.08vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.card-five {
+  margin: 40px 0;
+}
+.card-five > img {
+  width: 100%;
+}
+.fifth_section {
+  width: 57.81%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0;
+}
+.card-five {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-five-texts {
+  width: 75%;
+  height: 77px;
+  background-color: #00cbff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: -1px 3px 34px 0px rgba(67, 170, 255, 0.2);
+  -moz-box-shadow: -1px 3px 34px 0px rgba(67, 170, 255, 0.2);
+  box-shadow: -1px 3px 34px 0px rgba(67, 170, 255, 0.2);
+}
+.card-five-texts > p {
+  margin: 3px 0;
+}
+.top-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bottom-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-top: 1px solid white;
+  padding: 2px 0;
+}
+.wrapper-fifth-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media (max-width: 500px) {
   .first_section_child {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .wrapper-fifth-cards {
+    width: 100%;
+  }
+  .card-five > img {
+    width: 90%;
+  }
+  .card-five-texts {
+    width: 62px;
+    height: 24px;
+  }
+  .top-text {
+    color: #fff;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3px;
+  }
+  .fifth_section {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .GreenButton1 {
+    width: 207px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #65e700;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
   .third-section {
     margin-top: 30px;
@@ -477,7 +587,7 @@
     align-items: center;
     justify-content: center;
   }
-  .third-container-right-text{
+  .third-container-right-text {
     width: 80%;
     margin: 10px 23px 15px 23px;
     font-size: 12px;
