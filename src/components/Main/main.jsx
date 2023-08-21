@@ -10,6 +10,7 @@ import photo2 from "../../assets/img/photo2.png";
 import photo3 from "../../assets/img/photo3.png";
 import photo4 from "../../assets/img/photo4.png";
 import likeKok from "../../assets/logo/Vector (20).png";
+import thirdImage from "../../assets/img/image-removebg-preview (52).png";
 
 export const Main = () => {
   const [t, i18n] = useTranslation("global");
@@ -85,6 +86,27 @@ export const Main = () => {
           <img className="sharLogo1" src={sharLogo} alt="" />
         </div>
       </section>
+      <div className="there_container_wrapper">
+        <section className="third-section">
+          <button className="s-third-button">
+            {t("main.third-section_button")}
+          </button>
+          <div className="third-container-left">
+            <img src={thirdImage} alt="" />
+          </div>
+          <div className="third-container-right">
+            <button className="C-third-button">
+              {t("main.third-section_button")}
+            </button>
+            <p className="third-container-right-text">
+              {t("main.third-section_text")}
+            </p>
+            <div className="third-container-right_child">
+              <button className="call_button">{t("main.first-button")}</button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
