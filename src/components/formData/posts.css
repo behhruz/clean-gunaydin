@@ -1,0 +1,85 @@
+.Posts-wrapper {
+  background-color: #f0fffa;
+  backdrop-filter: blur(60px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 57.81%;
+  margin: 50px 0;
+}
+.Posts-container > button {
+  width: 40%;
+  height: 70px;
+  border-radius: 42px;
+  background: #65e700;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 2.08vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.Posts-container-right {
+  width: 50%;
+  background-color: #93ceffc7;
+  height: 500px;
+  border-radius: 20px;
+}
+form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+form > .addBtn {
+  border-radius: 20px;
+  width: 70%;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #65e700;
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+form > .inputs {
+  width: 70%;
+  height: 60px;
+  padding: 0 0 0 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .Posts-container > button {
+    width: 246px;
+    height: 54px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .Posts-container-right{
+    width: 100%;
+  }
+  .Posts-container{
+    width: 90%;
+  }
+}

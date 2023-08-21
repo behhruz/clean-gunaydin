@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./components/Header/header";
 import Main from "./components/Main/main";
-import Posts from "./components/posts";
+import Posts from "./components/formData/posts";
 
 function App() {
   return (
     <div className="wrapper">
-      <Header/>
+      <Header />
       <Main />
       <Posts />
     </div>
