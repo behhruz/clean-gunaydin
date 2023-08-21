@@ -11,6 +11,16 @@ import photo3 from "../../assets/img/photo3.png";
 import photo4 from "../../assets/img/photo4.png";
 import likeKok from "../../assets/logo/Vector (20).png";
 import thirdImage from "../../assets/img/image-removebg-preview (52).png";
+import card1 from "../../assets/Card/1.png";
+import card2 from "../../assets/Card/Rectangle 18.png";
+import card3 from "../../assets/Card/Rectangle 22.png";
+import card4 from "../../assets/Card/Rectangle 23 (1).png";
+import card5 from "../../assets/Card/Rectangle 24.png";
+import card6 from "../../assets/Card/Rectangle 28 (1).png";
+import card7 from "../../assets/Card/Rectangle 29.png";
+import card8 from "../../assets/Card/Rectangle 30.png";
+import card9 from "../../assets/Card/Rectangle 31.png";
+import card10 from "../../assets/Card/Rectangle 32.png";
 
 export const Main = () => {
   const [t, i18n] = useTranslation("global");
@@ -105,8 +115,42 @@ export const Main = () => {
               <button className="call_button">{t("main.first-button")}</button>
             </div>
           </div>
+        </section>{" "}
+        <section className="fourth_section">
+          <div className="fourth_section-top">
+            <button className="GreenButton">{t("main.fourButton")}</button>
+          </div>
+          <div className="fourth_section-bottom">
+            <div className="fourth_section-bottom-left">
+              <p className="fourth_section-first_text">
+                {t("main.fourHeading")}
+              </p>
+              <p className="third-container-right-text">{t("main.fourText")}</p>
+              <button className="call_button">{t("main.first-button")}</button>
+            </div>
+            <div className="fourth_section-bottom-right">
+              <div className="fourth_section-bottom-right-top">
+                <img src={card1} alt="" />
+                <div className="four-carda">
+                  <img className="rasm" src={card2} alt="" />
+                  <img className="rasm" src={card2} alt="" />
+                  <img className="rasm" src={card2} alt="" />
+                  <img className="rasm" src={card2} alt="" />
+                </div>
+              </div>
+              <div className="fourth_section-bottom-right-bottom">
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card5} alt="" />  
+              </div>
+            </div>
+          </div>
         </section>
-      </div>
+      </div>{" "}
     </div>
   );
 };
