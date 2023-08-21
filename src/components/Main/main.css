@@ -326,6 +326,14 @@
     font-weight: 400;
     line-height: normal;
   }
+  .text-logo_box > p {
+    font-size: 4px;
+    width: 60%;
+  }
+  .text-logo_box > img {
+    width: 7px;
+    height: 7px;
+  }
   .Wrapper_second {
     padding: -25%;
     border-radius: 13px;
