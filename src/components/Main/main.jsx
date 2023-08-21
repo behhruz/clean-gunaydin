@@ -54,22 +54,23 @@ export const Main = () => {
                       <img src={likeKok} alt="" />
                     </div>
                   </div>
+                  <div className="Wrapper_second">
+                    <img src={photo2} alt="" />
+                    <div>
+                      <p className="second-card-p">{t("main.card2")}</p>
+                      <p className="second-card-p2">{t("main.card2-text")}</p>
+                    </div>
+                  </div>
+
                   <div className="cards-first">
-                    <img src={photo1} alt="" />
+                    <img src={photo3} alt="" />
                     <div className="text-logo_box">
                       <p>{t("main.card1")}</p>
                       <img src={likeKok} alt="" />
                     </div>
                   </div>
                   <div className="cards-first">
-                    <img src={photo1} alt="" />
-                    <div className="text-logo_box">
-                      <p>{t("main.card1")}</p>
-                      <img src={likeKok} alt="" />
-                    </div>
-                  </div>
-                  <div className="cards-first">
-                    <img src={photo1} alt="" />
+                    <img src={photo4} alt="" />
                     <div className="text-logo_box">
                       <p>{t("main.card1")}</p>
                       <img src={likeKok} alt="" />
