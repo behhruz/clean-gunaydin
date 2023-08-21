@@ -287,6 +287,8 @@
     width: 191px;
     height: 53.65px;
     font-size: 24px;
+    white-space: nowrap; /* Запрет переноса текста на новую строку */
+    display: inline;
   }
   .second_section-first_text {
     font-size: 20px;
@@ -327,7 +329,7 @@
   .Wrapper_second {
     padding: -25%;
     border-radius: 13px;
-    height: 100px;
+    height: 123px;
     padding: 8px;
   }
 
