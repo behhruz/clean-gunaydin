@@ -52,10 +52,14 @@ ul li {
 .footer-child > .logo-footer {
   display: none;
 }
-.Responsive-wrapper{
+.Responsive-wrapper {
   display: none;
 }
 @media (max-width: 500px) {
+  footer {
+    width: 100%;
+    padding: 0;
+  }
   .footer-child {
     display: none;
   }
