@@ -88,10 +88,19 @@ form > .inputs {
   }
 
   .Posts-container-right  {
-    width: 451px;
+    width: 100%;
   }
   
-
+  .form-display {
+    display: flex;
+    gap: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .Posts-container >button{
+    font-size: 20px;
+  }
+  
 }
 
 
