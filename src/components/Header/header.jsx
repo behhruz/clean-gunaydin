@@ -77,7 +77,9 @@ export const Header = () => {
           <p>{t("header.contact")}</p>
         </nav>
 
-        <button className="phone_button">+998333000057</button>
+        <a href="tel:+998333000057">
+          <button className="phone_button">+998333000057</button>
+        </a>
         <div className="tranlate_icons_box">
           <img
             onClick={() => handleChangeLaunguage("uz")}
@@ -103,7 +105,10 @@ export const Header = () => {
       </div>
       <div className="logo_contact_wrapper">
         <img src={arrowIcon} alt="" />
-        <button className="phone2_button">333000057</button>
+        <a href="tel:+998333000057">
+          {" "}
+          <button className="phone2_button">333000057</button>
+        </a>
       </div>
     </div>
   );

@@ -33,7 +33,10 @@ export const Main = () => {
           <div className="first_section_child_left">
             <h1>{t("main.zagalovok")}</h1>
             <p>{t("main.podzagalovok")}</p>
-            <button>{t("main.first-button")}</button>
+            <button>
+              {" "}
+              <a href="tel:+998333000057">{t("main.first-button")}</a>
+            </button>
           </div>
           <div className="first_section_child_right">
             <img src={xolaImg} alt="" />
@@ -43,9 +46,7 @@ export const Main = () => {
         <img src={rightImg} alt="" />
       </section>
       <section className="second_section">
-        <button type="">
-          <a href="tel:+998333000057">{t("header.service")}</a>{" "}
-        </button>
+        <button type="">{t("header.service")}</button>
         <p className="second_section-first_text">
           {t("main.usluga-text-zagalovok")}
         </p>
@@ -113,7 +114,9 @@ export const Main = () => {
               {t("main.third-section_text")}
             </p>
             <div className="third-container-right_child">
-              <button className="call_button">{t("main.first-button")}</button>
+              <button className="call_button">
+                <a href="tel:+998333000057">{t("main.first-button")}</a>
+              </button>
             </div>
           </div>
         </section>{" "}
@@ -127,7 +130,7 @@ export const Main = () => {
                 {t("main.fourHeading")}
               </p>
               <p className="third-container-right-text">{t("main.fourText")}</p>
-              <button className="call_button">{t("main.first-button")}</button>
+              <button className="call_button"><a href="tel:+998333000057">{t("main.first-button")}</a></button>
             </div>
             <div className="fourth_section-bottom-right">
               <div className="fourth_section-bottom-right-top">
