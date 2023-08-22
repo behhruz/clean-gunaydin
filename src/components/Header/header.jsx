@@ -17,6 +17,9 @@ export const Header = () => {
 
   const [isPressed, setIsPressed] = useState(false);
 
+
+  
+
   const toggleIcon = () => {
     setIsPressed(!isPressed);
   };
@@ -25,9 +28,9 @@ export const Header = () => {
       key: "1",
       label: (
         <a
-          target="_blank"
+         
           rel="noopener noreferrer"
-          href="https://www.antgroup.com"
+          href="#section1"
         >
           {t("header.service")}
         </a>
@@ -37,9 +40,9 @@ export const Header = () => {
       key: "2",
       label: (
         <a
-          target="_blank"
+         
           rel="noopener noreferrer"
-          href="https://www.aliyun.com"
+          href="#section2"
         >
           {t("header.about")}
         </a>
@@ -49,9 +52,9 @@ export const Header = () => {
       key: "3",
       label: (
         <a
-          target="_blank"
+       
           rel="noopener noreferrer"
-          href="https://www.luohanacademy.com"
+          href="#section3"
         >
           {t("header.command")}
         </a>
@@ -61,9 +64,9 @@ export const Header = () => {
       key: "4",
       label: (
         <a
-          target="_blank"
+         
           rel="noopener noreferrer"
-          href="https://www.luohanacademy.com"
+          href="#section4"
         >
           {t("header.contact")}
         </a>
@@ -77,10 +80,10 @@ export const Header = () => {
           <img src={logoGunaydin} alt="" />
         </div>
         <nav>
-          <p>{t("header.service")}</p>
-          <p>{t("header.about")}</p>
-          <p>{t("header.command")}</p>
-          <p>{t("header.contact")}</p>
+          <p><a className="a_section" href="#section1">{t("header.service")}</a></p>
+          <p><a className="a_section" href="#section2">{t("header.about")}</a></p>
+          <p><a className="a_section" href="#section3">{t("header.command")}</a></p>
+          <p><a className="a_section" href="#section4">{t("header.contact")}</a></p>
         </nav>
         <div className="burger-wrapper3"  style={{display:"flex"}}>
           <a href="tel:+998333000057">

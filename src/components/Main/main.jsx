@@ -45,7 +45,7 @@ export const Main = () => {
         </div>
         <img src={rightImg} alt="" />
       </section>
-      <section className="second_section">
+      <section id="section1" className="second_section">
         <button type="">{t("header.service")}</button>
         <p className="second_section-first_text">
           {t("main.usluga-text-zagalovok")}
@@ -99,7 +99,7 @@ export const Main = () => {
         </div>
       </section>
       <div className="there_container_wrapper">
-        <section className="third-section">
+        <section id="section2" className="third-section">
           <button className="s-third-button">
             {t("main.third-section_button")}
           </button>
@@ -120,7 +120,7 @@ export const Main = () => {
             </div>
           </div>
         </section>{" "}
-        <section className="fourth_section">
+        <section id="section3" className="fourth_section">
           <div className="fourth_section-top">
             <button className="GreenButton">{t("main.fourButton")}</button>
           </div>
@@ -154,7 +154,7 @@ export const Main = () => {
             </div>
           </div>
         </section>
-        <section className="fifth_section">
+        <section id="section4" className="fifth_section">
           <button className="GreenButton1">{t("header.command")}</button>
           <div className="wrapper-fifth-cards">
             <div className="card-five">

@@ -5,6 +5,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.507);
+  transition: all 1s;
+ 
 }
 .container_header {
   width: 57.81%;
@@ -19,6 +21,7 @@
   top: 0;
   z-index: 1;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -26,6 +29,10 @@ nav {
   gap: 8%;
   margin: 0 6.12% 0 8%;
 }
+.a_section{
+  color: black;
+}
+
 .logo_container > img {
   min-width: 100%;
   height: auto;
