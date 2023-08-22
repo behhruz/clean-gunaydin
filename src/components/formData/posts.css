@@ -82,6 +82,9 @@ form > .inputs {
   .Posts-container{
     width: 90%;
   }
+  .img-form img {
+    display: none;
+  }
 }
 
 
@@ -90,6 +93,7 @@ form > .inputs {
   display: flex;
   flex-wrap: wrap;
 }
+
 
 
 
