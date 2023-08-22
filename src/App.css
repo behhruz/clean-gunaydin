@@ -3,6 +3,18 @@
   text-align: center;
 }
 
+body {
+  overflow-x: hidden;
+
+}
+
+
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
