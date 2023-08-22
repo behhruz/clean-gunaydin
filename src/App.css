@@ -5,6 +5,14 @@
 
 body {
   overflow-x: hidden;
+
+}
+
+
+
+a {
+  list-style: none;
+  text-decoration: none;
 }
 
 .App-logo {

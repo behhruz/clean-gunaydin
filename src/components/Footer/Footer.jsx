@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-        <button className="btn-col-center">{t("main.first-button")}</button>
+        <button className="btn-col-center"><a href="tel:+998333000057">{t("main.first-button")}</a></button>
         </div>
       </div>
     </footer>
