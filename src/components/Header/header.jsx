@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./header.css";
 import logoGunaydin from "../../assets/logo/Rectangle 56.png";
@@ -13,6 +13,12 @@ export const Header = () => {
   const [t, i18n] = useTranslation("global");
   const handleChangeLaunguage = (lang: string) => {
     i18n.changeLanguage(lang);
+  };
+
+  const [isPressed, setIsPressed] = useState(false);
+
+  const toggleIcon = () => {
+    setIsPressed(!isPressed);
   };
   const items: MenuProps["items"] = [
     {
@@ -76,32 +82,37 @@ export const Header = () => {
           <p>{t("header.command")}</p>
           <p>{t("header.contact")}</p>
         </nav>
-
-        <a href="tel:+998333000057">
-          <button className="phone_button">+998333000057</button>
-        </a>
-        <div className="tranlate_icons_box">
-          <img
-            onClick={() => handleChangeLaunguage("uz")}
-            src={logoUzb}
-            alt=""
-          />
-          <img
-            onClick={() => handleChangeLaunguage("ru")}
-            src={logoRus}
-            alt=""
-          />
+        <div className="burger-wrapper3"  style={{display:"flex"}}>
+          <a href="tel:+998333000057">
+            <button className="phone_button">+998333000057</button>
+          </a>{" "}
+          <Dropdown
+            className="dropdown"
+            menu={{ items }}
+            placement="bottomRight"
+            arrow={{ pointAtCenter: true }}
+          >
+            <div className="burgerBox">
+              <img src={burgerImg} alt="" />
+            </div>
+          </Dropdown>
         </div>
-        <Dropdown
-          className="dropdown"
-          menu={{ items }}
-          placement="bottomRight"
-          arrow={{ pointAtCenter: true }}
-        >
-          <div className="burgerBox">
-            <img src={burgerImg} alt="" />
-          </div>
-        </Dropdown>
+
+        <div className="tranlate_icons_box" onClick={toggleIcon}>
+          {isPressed ? (
+            <img
+              onClick={() => handleChangeLaunguage("uz")}
+              src={logoUzb}
+              alt=""
+            />
+          ) : (
+            <img
+              onClick={() => handleChangeLaunguage("ru")}
+              src={logoRus}
+              alt=""
+            />
+          )}
+        </div>
       </div>
       <div className="logo_contact_wrapper">
         <img src={arrowIcon} alt="" />
