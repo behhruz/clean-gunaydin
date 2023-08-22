@@ -33,9 +33,9 @@ export const Posts = () => {
         <div className="form-display">
         <div className="Posts-container-right">
           <form className="form" onSubmit={(e) => Submit(e)}>
-            <input className="inputs" type="text" placeholder="name" name="Name" />
-            <input className="inputs" type="text" placeholder="surname" name="Surname" />
-            <input className="inputs" type="number" placeholder="number" name="Phone" />
+            <input className="inputs" type="text" placeholder="Имя" name="Name" />
+            <input className="inputs" type="text" placeholder="Фамилия" name="Surname" />
+            <input className="inputs" type="number" placeholder="(90) 123 45 67" name="Phone" />
             <input className="addBtn" type="submit" placeholder="Отправить-заявку" />
           </form>
         </div>
