@@ -23,7 +23,7 @@ export const Header = () => {
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
         >
-          1st menu item
+          {t("header.service")}
         </a>
       ),
     },
@@ -35,7 +35,7 @@ export const Header = () => {
           rel="noopener noreferrer"
           href="https://www.aliyun.com"
         >
-          2nd menu item
+          {t("header.about")}
         </a>
       ),
     },
@@ -47,7 +47,19 @@ export const Header = () => {
           rel="noopener noreferrer"
           href="https://www.luohanacademy.com"
         >
-          3rd menu item
+          {t("header.command")}
+        </a>
+      ),
+    },
+    {
+      key: "4",
+      label: (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.luohanacademy.com"
+        >
+          {t("header.contact")}
         </a>
       ),
     },
