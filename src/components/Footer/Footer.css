@@ -55,3 +55,45 @@ ul li {
 
 
 
+
+@media (max-width: 500px) {
+    .btn-col-center {
+        display: none;
+    }
+    .active {
+        display: none;
+    }
+    .border {
+        border: 1px solid transparent;
+      }
+      .border ul {
+        display: flex;
+        font-size: 10px;
+        gap: 50%;
+      }
+
+      .border ul li { 
+        width: 100px;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        display: flex;
+        gap: 23px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .logo-img {
+        width: 82px;
+        height: 32px;
+      }
+
+      footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 auto
+      }
+  }
+  

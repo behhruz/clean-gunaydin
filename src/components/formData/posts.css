@@ -2,6 +2,7 @@
   background-color: #f0fffa;
   backdrop-filter: blur(60px);
   width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,13 +86,20 @@ form > .inputs {
   .img-form img {
     display: none;
   }
+
+  .Posts-container-right  {
+    width: 451px;
+  }
+  
+
 }
 
 
 
 .form-display {
   display: flex;
-  flex-wrap: wrap;
+  gap: 5%;
+  margin-left: 5%;
 }
 
 

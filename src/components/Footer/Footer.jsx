@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <img src={LogoFooter} alt="logo" />
+        <img src={LogoFooter} alt="logo" className="logo-img"/>
       </div>
-      <div>
+      <div className="active">
         <ul>
           <li>{t("footer.servece")}</li>
           <li>{t("footer.about")}</li>
@@ -23,13 +23,17 @@ const Footer = () => {
       </div>
       <div className="border">
         <ul>
+          <div>
           <li>{t("footer.telephone")}</li>
           <li>{t("footer.phonenumber")}</li>
-          <li>{t("footer.adres")}</li>
+          </div>
+         <div>
+         <li>{t("footer.adres")}</li>
           <li>{t("footer.adre2")}</li>
+         </div>
         </ul>
       </div>
-      <div>
+      <div className="footer">
         <div className="logo-footer">
           <a href="https://www.youtube.com/?hl=ru">
             <img src={LogoYutub} alt="" />
