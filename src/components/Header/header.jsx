@@ -17,9 +17,6 @@ export const Header = () => {
 
   const [isPressed, setIsPressed] = useState(false);
 
-
-  
-
   const toggleIcon = () => {
     setIsPressed(!isPressed);
   };
@@ -27,11 +24,7 @@ export const Header = () => {
     {
       key: "1",
       label: (
-        <a
-         
-          rel="noopener noreferrer"
-          href="#section1"
-        >
+        <a rel="noopener noreferrer" href="#section1">
           {t("header.service")}
         </a>
       ),
@@ -39,11 +32,7 @@ export const Header = () => {
     {
       key: "2",
       label: (
-        <a
-         
-          rel="noopener noreferrer"
-          href="#section2"
-        >
+        <a rel="noopener noreferrer" href="#section2">
           {t("header.about")}
         </a>
       ),
@@ -51,11 +40,7 @@ export const Header = () => {
     {
       key: "3",
       label: (
-        <a
-       
-          rel="noopener noreferrer"
-          href="#section3"
-        >
+        <a rel="noopener noreferrer" href="#section3">
           {t("header.command")}
         </a>
       ),
@@ -63,11 +48,7 @@ export const Header = () => {
     {
       key: "4",
       label: (
-        <a
-         
-          rel="noopener noreferrer"
-          href="#section4"
-        >
+        <a rel="noopener noreferrer" href="#section4">
           {t("header.contact")}
         </a>
       ),
@@ -80,27 +61,27 @@ export const Header = () => {
           <img src={logoGunaydin} alt="" />
         </div>
         <nav>
-          <p><a className="a_section" href="#section1">{t("header.service")}</a></p>
-          <p><a className="a_section" href="#section2">{t("header.about")}</a></p>
-          <p><a className="a_section" href="#section3">{t("header.command")}</a></p>
-          <p><a className="a_section" href="#section4">{t("header.contact")}</a></p>
+          <p>
+            <a className="a_section" href="#section1">
+              {t("header.service")}
+            </a>
+          </p>
+          <p>
+            <a className="a_section" href="#section2">
+              {t("header.about")}
+            </a>
+          </p>
+          <p>
+            <a className="a_section" href="#section3">
+              {t("header.command")}
+            </a>
+          </p>
+          <p>
+            <a className="a_section" href="#section4">
+              {t("header.contact")}
+            </a>
+          </p>
         </nav>
-        <div className="burger-wrapper3"  style={{display:"flex"}}>
-          <a href="tel:+998333000057">
-            <button className="phone_button">+998333000057</button>
-          </a>{" "}
-          <Dropdown
-            className="dropdown"
-            menu={{ items }}
-            placement="bottomRight"
-            arrow={{ pointAtCenter: true }}
-          >
-            <div className="burgerBox">
-              <img src={burgerImg} alt="" />
-            </div>
-          </Dropdown>
-        </div>
-
         <div className="tranlate_icons_box" onClick={toggleIcon}>
           {isPressed ? (
             <img
@@ -115,6 +96,21 @@ export const Header = () => {
               alt=""
             />
           )}
+          <div className="burger-wrapper3" style={{ display: "flex" }}>
+            <a href="tel:+998333000057">
+              <button className="phone_button">+998333000057</button>
+            </a>{" "}
+            <Dropdown
+              className="dropdown"
+              menu={{ items }}
+              placement="bottomRight"
+              arrow={{ pointAtCenter: true }}
+            >
+              <div className="burgerBox">
+                <img src={burgerImg} alt="" />
+              </div>
+            </Dropdown>
+          </div>
         </div>
       </div>
       <div className="logo_contact_wrapper">

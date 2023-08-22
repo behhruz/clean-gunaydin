@@ -121,8 +121,8 @@ nav > p {
     margin-right: -20%;
     gap: 20px;
   }
-  .tranlate_icons_box > img{
-    display: none;
+  .tranlate_icons_box{
+
   }
   .dropdown {
     display: block;
