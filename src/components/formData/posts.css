@@ -30,7 +30,7 @@
   margin-bottom: 50px;
 }
 .Posts-container-right {
-  width: 50%;
+  width: 451px;
   background-color: #93ceffc7;
   height: 500px;
   border-radius: 20px;
@@ -83,3 +83,13 @@ form > .inputs {
     width: 90%;
   }
 }
+
+
+
+.form-display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+

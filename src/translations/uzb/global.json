@@ -23,5 +23,15 @@
     "fourText": "Tozalash xizmatida biz mijozlarimizning qoniqishini hamma narsadan ustun qo'yamiz. Shuning uchun biz o'z xizmatlarimizni tabassum va do'stona munosabat bilan taqdim etishga intilamiz. Biz har bir mijoz noyob ekanligini tushunamiz va sizning ehtiyojlaringiz va imtiyozlaringizni tinglashga vaqt ajratamiz. Bizning maqsadimiz har safar kutganingizdan oshib ketadigan shaxsiy tozalash xizmatlarini taqdim etishdir.",
     "fifth_card": "Uy",
     "fifth_card1": "Uyni tozalash"
+  },
+  "footer":{
+    "servece":"Bizni xizmatlarimiz",
+    "about": "Biz haqimizda",
+    "comond":"Bizni kamandamiza",
+    "info":"Bizbilan bog'lanin",
+    "telephone": "Bog'lanish uchun telefon raqam",
+    "phonenumber": "333000057",
+    "adres":"Adres:",
+    "adre2": "Sergili 5 , 33"
   }
 }

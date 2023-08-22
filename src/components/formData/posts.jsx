@@ -2,7 +2,7 @@ import React from "react";
 import "./posts.css";
 import { useTranslation } from "react-i18next";
 import rasm1 from '../../assets/img/young-housewife-is-wearing-yellow-gloves-while-cleaning-with-product-clean-white-wall 1.png'
-
+import FormImg from "../../assets/logo/uborshik.png"
 export const Posts = () => {
   const Submit = (e) => {
     const formElement = document.querySelector("form");
@@ -29,7 +29,8 @@ export const Posts = () => {
   return (
     <div className="Posts-wrapper">
       <div className="Posts-container">
-        <button>{t("main.first-button")}</button>
+      <button>{t("main.first-button")}</button>
+        <div className="form-display">
         <div className="Posts-container-right">
           <form className="form" onSubmit={(e) => Submit(e)}>
             <input className="inputs" type="text" placeholder="name" name="Name" />
@@ -37,6 +38,10 @@ export const Posts = () => {
             <input className="inputs" type="number" placeholder="number" name="Phone" />
             <input className="addBtn" type="submit" placeholder="Отправить-заявку" />
           </form>
+        </div>
+        <div className="img-form">
+          <img src={FormImg} alt="" />
+        </div>
         </div>
       </div>
     </div>
