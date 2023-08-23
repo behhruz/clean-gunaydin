@@ -22,7 +22,13 @@
     "fourHeading": "Sifatli va toza",
     "fourText": "Tozalash xizmatida biz mijozlarimizning qoniqishini hamma narsadan ustun qo'yamiz. Shuning uchun biz o'z xizmatlarimizni tabassum va do'stona munosabat bilan taqdim etishga intilamiz. Biz har bir mijoz noyob ekanligini tushunamiz va sizning ehtiyojlaringiz va imtiyozlaringizni tinglashga vaqt ajratamiz. Bizning maqsadimiz har safar kutganingizdan oshib ketadigan shaxsiy tozalash xizmatlarini taqdim etishdir.",
     "fifth_card": "Uy",
-    "fifth_card1": "Uyni tozalash"
+    "fifth_card1": "Uyni tozalash",
+    "fifth_card2": "O'fis",
+    "fifth_card2_text": "O'fisni tozalash",
+    "fifth_card3": "Oyna",
+    "fifth_card3_text": "Oynani tozalash",
+    "fifth_card4": "Texnik",
+    "fifth_card4_text": "Tex. yordam."
   },
   "footer":{
     "servece":"Bizni xizmatlarimiz",

@@ -82,20 +82,22 @@ export const Header = () => {
             </a>
           </p>
         </nav>
-        <div className="tranlate_icons_box" onClick={toggleIcon}>
-          {isPressed ? (
-            <img
-              onClick={() => handleChangeLaunguage("uz")}
-              src={logoUzb}
-              alt=""
-            />
-          ) : (
-            <img
-              onClick={() => handleChangeLaunguage("ru")}
-              src={logoRus}
-              alt=""
-            />
-          )}
+        <div className="header_child">
+          <div className="tranlate_icons_box" onClick={toggleIcon}>
+            {isPressed ? (
+              <img
+                onClick={() => handleChangeLaunguage("uz")}
+                src={logoUzb}
+                alt=""
+              />
+            ) : (
+              <img
+                onClick={() => handleChangeLaunguage("ru")}
+                src={logoRus}
+                alt=""
+              />
+            )}
+          </div>
           <div className="burger-wrapper3" style={{ display: "flex" }}>
             <a href="tel:+998333000057">
               <button className="phone_button">+998333000057</button>

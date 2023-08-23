@@ -22,6 +22,13 @@ import card8 from "../../assets/Card/Rectangle 30.png";
 import card9 from "../../assets/Card/Rectangle 31.png";
 import card10 from "../../assets/Card/Rectangle 32.png";
 import xolaRasmi from "../../assets/img/Rectangle 33.png";
+import xolaRasmi2 from "../../assets/img/Rectangle 35 (1).png";
+import xolaRasmi3 from "../../assets/img/Rectangle 35.png";
+import xolaRasmi4 from "../../assets/img/Rectangle 36.png";
+
+
+
+
 
 export const Main = () => {
   const [t, i18n] = useTranslation("global");
@@ -137,19 +144,19 @@ export const Main = () => {
                 <img src={card1} alt="" />
                 <div className="four-carda">
                   <img className="rasm" src={card2} alt="" />
-                  <img className="rasm" src={card2} alt="" />
-                  <img className="rasm" src={card2} alt="" />
-                  <img className="rasm" src={card2} alt="" />
+                  <img className="rasm" src={card3} alt="" />
+                  <img className="rasm" src={card4} alt="" />
+                  <img className="rasm" src={card1} alt="" />
                 </div>
               </div>
               <div className="fourth_section-bottom-right-bottom">
                 <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
-                <img className="rasm1" src={card5} alt="" />
+                <img className="rasm1" src={card6} alt="" />
+                <img className="rasm1" src={card7} alt="" />
+                <img className="rasm1" src={card8} alt="" />
+                <img className="rasm1" src={card9} alt="" />
+                <img className="rasm1" src={card10} alt="" />
+                <img className="rasm1" src={card1} alt="" />
               </div>
             </div>
           </div>
@@ -165,24 +172,24 @@ export const Main = () => {
               </div>
             </div>
             <div className="card-five">
-              <img src={xolaRasmi} alt="" />
+              <img src={xolaRasmi4} alt="" />
               <div className="card-five-texts">
-                <p className="top-text">{t("main.fifth_card")}</p>
-                <p className="bottom-text">{t("main.fifth_card1")}</p>
+                <p className="top-text">{t("main.fifth_card2")}</p>
+                <p className="bottom-text">{t("main.fifth_card2_text")}</p>
               </div>
             </div>{" "}
             <div className="card-five">
-              <img src={xolaRasmi} alt="" />
+              <img src={xolaRasmi3} alt="" />
               <div className="card-five-texts">
-                <p className="top-text">{t("main.fifth_card")}</p>
-                <p className="bottom-text">{t("main.fifth_card1")}</p>
+                <p className="top-text">{t("main.fifth_card3")}</p>
+                <p className="bottom-text">{t("main.fifth_card3_text")}</p>
               </div>
             </div>{" "}
             <div className="card-five">
-              <img src={xolaRasmi} alt="" />
+              <img src={xolaRasmi2} alt="" />
               <div className="card-five-texts">
-                <p className="top-text">{t("main.fifth_card")}</p>
-                <p className="bottom-text">{t("main.fifth_card1")}</p>
+                <p className="top-text">{t("main.fifth_card4")}</p>
+                <p className="bottom-text">{t("main.fifth_card4_text")}</p>
               </div>
             </div>
           </div>

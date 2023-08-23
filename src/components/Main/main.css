@@ -9,6 +9,16 @@
   display: flex;
   justify-content: space-between;
 }
+.bottom-text{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-text > p{
+  text-align: center;
+}
 section{
   transition: all 1s;
 }

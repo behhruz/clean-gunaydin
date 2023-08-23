@@ -134,6 +134,18 @@ nav > p {
     width: 92px;
     height: 34px;
   }
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .header_child{
+  display: flex;
+  gap: 10px;
+ }
+  .tranlate_icons_box{
+    width: 20px;
+  }
   .phone_button {
     display: block;
   }
